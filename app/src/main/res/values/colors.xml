@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimary">#FF4081</color>-->
+    <color name="colorPrimary">#5b52ba</color>
+    <color name="colorPrimaryDark">#404cba</color>
+    <color name="colorAccent">#5b52ba</color>
+    <color name="ContentTextcolor">#f3150000</color>
+    <!--<color name="ContentTextcolor">#e9740d0d</color>-->
+    <color name="FotterTextcolor">#130101</color>
+    <color name="Viewcolor">#da03d649</color>
+    <color name="Viewcolor2">#d7fffdfd</color>
+    <color name="FooterBackcolor">#0047617a</color>
+    <color name="HeaderBackcolor">#c4fad08d</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="DataTextColor">#0e4373</color>
+    <color name="DataHeaderColor">#f85b52ba</color>
+   <!-- <color name="ContentTranscolor">#96fff9f5</color>-->
+    <color name="ContentTranscolor">#e2e2e2e2</color>
+    <color name="ContentTranscolorFrant">#30fad08d</color>
+</resources>

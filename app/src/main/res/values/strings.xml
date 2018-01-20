@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Cream Bell Assets</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_Save">Save</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">Search...</string>
+    <string name="searchable">searchable</string>
+
+
+    <string name="SignIn">SignIn</string>
+    <string name="SignUp">SignUp</string>
+    <string name="Submit">Submit</string>
+    <string name="UserName">UserName</string>
+    <string name="Company">Company</string>
+    <string name="password_not_match">Password do not match. Please Try Again..!</string>
+    <string name="InvalidPassword">Invalid UserId Or Password. Please Try Again..!</string>
+    <string name="UserId_Enter">Please Enter User Id !</string>
+    <string name="Pin_Enter">Please Enter Party Pin !</string>
+    <string name="Password_Enter">Please Enter Password !</string>
+    <string name="UserId">User Id</string>
+    <string name="Pin">Enter Pin</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Or">Or</string>
+    <string name="Or_Login_via">Or Login Via</string>
+    <string name="Or_Register_via">Or Register Via</string>
+    <string name="FirstName">Full Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="Re_Enter_Password">Re Enter Password</string>
+    <string name="Contact_Number">Mobile No.</string>
+    <string name="City">City</string>
+
+    <string name="Order_No">"Order No: "</string>
+    <string name="Order_Date">"Order Date: "</string>
+    <string name="Order_Qty">Order Qty:</string>
+    <string name="Order_Desp_Qty">Desp. Qty:</string>
+    <string name="No_result_found">No Results found for your search query.</string>
+    <string name="order_status">Order Status</string>
+    <string name="party_name">"Party Name: "</string>
+    <string name="Delivery_Date">"Delivery Date: "</string>
+    <string name="otp_not_matched">Otp not matched.</string>
+
+    <string-array name="Year">
+        <item>Choose a Year</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+    </string-array>
+
+    <string-array name = "array_Work">
+        <item>Working</item>
+        <item>Scrap</item>
+    </string-array>
+
+</resources>

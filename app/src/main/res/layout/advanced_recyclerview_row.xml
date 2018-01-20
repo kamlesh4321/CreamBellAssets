@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/d30"
+    android:layout_marginBottom="@dimen/d10"
+    android:elevation="50dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rlCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/partyName"
+            android:gravity="left"
+            android:padding="@dimen/d5"
+            android:text="Party Name"
+            android:textStyle="bold"
+            android:textColor="@color/DataHeaderColor"/>
+
+        <TextView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:id="@+id/imageApp"
+            android:gravity="right"
+            android:background="@drawable/ok"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_OrderNo"
+            android:gravity="left"
+            android:layout_below="@id/partyName">
+
+            <TextView
+                android:id="@+id/tvOrderNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/d5"
+                android:textStyle="bold"
+                android:textColor="@color/DataTextColor"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvOrderDate"
+            android:layout_below="@id/partyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/DataTextColor"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ll_OrderQty"
+            android:gravity="left"
+            android:layout_below="@id/ll_OrderNo">
+            <TextView
+                android:id="@+id/tvOrderQty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/d5"
+                android:textStyle="bold"
+                android:textColor="@color/DataTextColor"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvOrderDespQtyHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/d5"
+            android:text="@string/Order_Desp_Qty"
+            android:textStyle="bold"
+            android:textColor="@color/DataTextColor"
+            android:layout_below="@+id/ll_OrderNo"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/deliveryDate"
+            android:gravity="right"
+            android:padding="@dimen/d5"
+            android:text="Delivery Date:"
+            android:layout_below="@id/tvOrderDespQtyHeading"
+            android:textStyle="bold"
+            android:textColor="@color/DataHeaderColor"/>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

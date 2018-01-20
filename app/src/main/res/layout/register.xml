@@ -1,0 +1,152 @@
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/drawer_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+android:background="@drawable/b4"
+tools:openDrawer="start">
+
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+
+         android:background="@color/ContentTranscolor"
+         android:alpha="1">
+          <android.support.v7.widget.Toolbar
+              android:id="@+id/toolbar"
+              android:layout_width="match_parent"
+              android:layout_height="?attr/actionBarSize"
+              android:theme="@style/SearchViewTheme"
+              android:background="@color/colorPrimary" />
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/et_UserId"
+                   android:imeOptions="actionNext"
+                   android:nextFocusForward="@+id/et_firstName"
+                   android:layout_marginTop="15dp"
+                   android:singleLine="true"
+                   android:textColor="@color/black"
+                   android:background="@drawable/et_sign_in"
+                   android:hint="@string/UserId"
+                   android:gravity="center"/>
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:id="@+id/et_firstName"
+                        android:layout_marginTop="5dp"
+                        android:imeOptions="actionNext"
+                        android:textColor="@color/black"
+                        android:nextFocusForward="@+id/et_lastName"
+                        android:singleLine="true"
+                        android:background="@drawable/et_sign_in"
+                        android:hint="@string/FirstName"
+                        android:gravity="center"/>
+
+
+
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/et_Email"
+                   android:imeOptions="actionNext"
+                   android:nextFocusForward="@+id/et_Company"
+                   android:layout_marginTop="5dp"
+                   android:singleLine="true"
+                   android:textColor="@color/black"
+                   android:background="@drawable/et_sign_in"
+                   android:hint="@string/Email"
+                   android:gravity="center"/>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/ll_Password"
+                   android:weightSum="10"
+                   android:layout_marginTop="5dp"
+                   android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:id="@+id/et_password"
+                        android:textColor="@color/black"
+                        android:imeOptions="actionNext"
+                        android:nextFocusForward="@+id/et_rePassword"
+                        android:singleLine="true"
+                        android:inputType="textPassword"
+                        android:background="@drawable/et_sign_in"
+                        android:hint="@string/Password"
+                        android:gravity="center"/>
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:id="@+id/et_rePassword"
+                        android:imeOptions="actionNext"
+                        android:textColor="@color/black"
+                        android:nextFocusForward="@+id/et_Contact"
+                        android:singleLine="true"
+                        android:inputType="textPassword"
+                        android:background="@drawable/et_sign_in"
+                        android:hint="@string/Re_Enter_Password"
+                        android:gravity="center"/>
+
+               </LinearLayout>
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/et_Contact"
+                   android:layout_marginTop="5dp"
+                   android:inputType="number"
+                   android:imeOptions="actionNext"
+                   android:textColor="@color/black"
+                   android:singleLine="true"
+                   android:background="@drawable/et_sign_in"
+                   android:hint="@string/Contact_Number"
+                   android:gravity="center"/>
+               <EditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/et_City"
+                   android:layout_marginTop="5dp"
+                   android:imeOptions="actionDone"
+                   android:textColor="@color/black"
+                   android:singleLine="true"
+                   android:background="@drawable/et_sign_in"
+                   android:hint="@string/City"
+                   android:gravity="center"/>
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/btn_signUser"
+                   android:text="@string/SignUp"
+                   android:textColor="@color/white"
+                   android:textAllCaps="false"
+                   android:textSize="18sp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginTop="10dp"
+                   android:background="@drawable/btn_sign_in"/>
+
+
+
+          </LinearLayout>
+
+
+     </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
